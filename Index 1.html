@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transcrição de Áudio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #792bc2;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .container {
+      width: 30%;
+      margin-bottom: 30px;
+      text-align: center;
+      border: 1px solid #ccc;
+      padding: 20px;
+      background-color: #f6e0ff;
+    }
+
+    .container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .container p {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .container button {
+      margin-bottom: 10px;
+      padding: 8px 16px;
+      background-color: #792bc2;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .container button:hover {
+      background-color: #d8a5ed;
+    }
+    body { font-family: Arial, sans-serif; }
+  #transcription { white-space: pre-wrap; } 
+  #descricao1 { 
+    padding: 20px;
+    text-align: justify;
+  }
+  #descricao2 { 
+    padding: 20px;
+    text-align: justify;
+  }
+  #descricao3 { 
+    padding: 20px;
+    text-align: justify;
+  }
+</style>
+
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Transcrição de Áudio</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <img src="1.gif" alt="Imagem 1">
+      <button onclick="toggleVisibility('descricao1')">Mostrar/Ocultar</button>
+      <button onclick="changeContrast('descricao1', 'contrast1')">Contraste 1</button>
+      <button onclick="changeContrast('descricao1', 'contrast2')">Contraste 2</button>
+      <p id="descricao1">
+          A transcrição de áudio é fundamental para tornar conteúdos audiovisuais, como vídeos e podcasts, acessíveis a todos, especialmente para pessoas com deficiência auditiva ou surdez. Ao fornecer transcrições precisas e completas, a transcrição de áudio não apenas permite que esses indivíduos tenham acesso ao conteúdo, mas também melhora a experiência de usuário para aqueles que preferem consumir informações de forma escrita. Essa prática promove a inclusão digital, igualdade de acesso à informação e oportunidades educacionais e profissionais, contribuindo para uma sociedade mais inclusiva e equitativa. (Fonte: World Wide Web Consortium - W3C, Diretrizes de Acessibilidade para Conteúdo Web - WCAG)
+      </p>
+    </div>
+
+    <div class="container">
+      <img src="2.gif"Imagem 2">
+      <button onclick="toggleVisibility('descricao2')">Mostrar/Ocultar</button>
+      <button onclick="changeContrast('descricao2', 'contrast1')">Contraste 1</button>
+      <button onclick="changeContrast('descricao2', 'contrast2')">Contraste 2</button>
+      <p id="descricao2">
+        A transcrição de áudio é fundamental para tornar conteúdos audiovisuais acessíveis a todos, incluindo pessoas com deficiência auditiva. Além disso, facilita a busca e referência de informações, melhorando a indexação por mecanismos de busca. Também oferece a possibilidade de tradução e é uma alternativa para situações sem reprodução de áudio. Esses benefícios promovem a inclusão digital e melhoram a experiência do usuário. Em resumo, a transcrição de áudio amplia o alcance e a utilidade dos conteúdos audiovisuais, contribuindo para uma sociedade mais inclusiva e equitativa. (Fonte: W3C - World Wide Web Consortium)
+      </p>
+    </div>
+
+    <div class="container">
+      <img src="3.gif" alt="Imagem 3">
+      <button onclick="toggleVisibility('descricao3')">Mostrar/Ocultar</button>
+      <button onclick="changeContrast('descricao3', 'contrast1')">Contraste 1</button>
+      <button onclick="changeContrast('descricao3', 'contrast2')">Contraste 2</button>
+      <p id="descricao3">
+        Os softwares de transcrição baseados em inteligência artificial (IA) são ferramentas avançadas que convertem áudio em texto de maneira rápida e precisa. Utilizando algoritmos de aprendizado de máquina, esses programas interpretam o discurso humano com precisão, adaptando-se a diferentes vozes e contextos. Essa tecnologia possibilita transcrições mais eficientes e melhorias contínuas com o uso. Os softwares de transcrição com IA são úteis em diversas aplicações, como transcrição de reuniões, entrevistas e palestras. Além de aumentar a produtividade, promovem a acessibilidade ao tornar o conteúdo de áudio acessível a uma ampla gama de usuários. (Fonte: Adaptado de World Wide Web Consortium - W3C)
+      </p>
+    </div>
+  </main>
+  <center>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">SILVIA ROBERTA DE JESUS GARCIA</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">1600.00000000000</mso:Order>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">SILVIA ROBERTA DE JESUS GARCIA</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ReferenceId msdt:dt="string"></mso:ReferenceId>
+<mso:ContentTypeId msdt:dt="string">0x0101005BD3C23D586F5F4DBA70A337A69CF458</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+  
+
+<!-- Botão para iniciar/parar a transcrição. -->
+
+<button id="startButton" style="background-color: #844caf; color: white; border: none; padding: 10px 20px; margin: 5px; cursor: pointer; border-radius: 5px; transition: background-color 0.3s ease; font-size: 16px; font-weight: bold; text-transform: uppercase; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">Iniciar Transcrição</button>
+
+<div id="transcription"></div>
+</center>
+  <script>
+    
+    function toggleVisibility(id) {
+      var element = document.getElementById(id);
+      if (element.style.display === "none") {
+        element.style.display = "block";
+      } else {
+        element.style.display = "none";
+      }
+    }
+
+    function changeContrast(id, contrast) {
+      var element = document.getElementById(id);
+      if (contrast === 'contrast1') {
+        // Aplicar estilo para o contraste 1
+        element.style.color = "black";
+        element.style.backgroundColor = "white";
+      } else if (contrast === 'contrast2') {
+        // Aplicar estilo para o contraste 2
+        element.style.color = "white";
+        element.style.backgroundColor = "purple";
+      }
+    }
+     // Obtém referências para os elementos HTML relevantes
+  const transcription = document.getElementById('transcription');
+  const startButton = document.getElementById('startButton');
+
+  // Variáveis para controle do reconhecimento de fala
+  let recognizing = false; // Indica se o reconhecimento está ocorrendo
+  let finalTranscript = ''; // Armazena o texto final reconhecido
+
+  // Verifica se o navegador suporta a API de Reconhecimento de Fala
+  window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  // Verifica se a API de Reconhecimento de Fala é suportada
+  if (window.SpeechRecognition) {
+    // Cria uma instância do reconhecimento de fala
+    var recognition = new SpeechRecognition();
+    // Configurações do reconhecimento de fala
+    recognition.continuous = true; // Reconhecimento contínuo
+    recognition.interimResults = true; // Resultados intermediários
+    recognition.lang = 'pt-BR'; // Define o idioma como Português- Brasil
+
+    // Evento acionado quando o reconhecimento de fala inicia
+    recognition.onstart = function() {
+      recognizing = true; // Define que o reconhecimento está ocorrendo
+      startButton.textContent = 'Parar Transcrição'; // Atualiza o texto do botão
+    };
+
+    // Evento acionado em caso de erro durante o reconhecimento
+    recognition.onerror = function(event) {
+      console.log('Erro de reconhecimento: ' + event.error); // Registra o erro no console
+    };
+
+    // Evento acionado quando o reconhecimento de fala termina
+    recognition.onend = function() {
+      recognizing = false; // Define que o reconhecimento não está mais ocorrendo
+      startButton.textContent = 'Iniciar Transcrição'; // Atualiza o texto do botão
+    };
+
+    // Evento acionado quando resultados de reconhecimento de fala estão disponíveis
+    recognition.onresult = function(event) {   
+      let interimTranscript = ''; // Variável para transcrição intermediária
+      // Itera sobre os resultados do reconhecimento
+      for (let i = event.resultIndex; i < event.results.length; ++i) {
+        if (event.results[i].isFinal) {
+          // Se a transcrição for final, adiciona ao texto final
+          finalTranscript += event.results[i][0].transcript;
+        } else {
+          // Caso contrário, é uma transcrição intermediária
+          interimTranscript += event.results[i][0].transcript;
+        }
+      }
+      // Exibe o texto reconhecido ao usuário
+      transcription.textContent = finalTranscript + interimTranscript;
+    };
+
+    // Adiciona evento de clique ao botão de início/parada da transcrição
+    startButton.addEventListener('click', function() {
+      if (recognizing) {
+        recognition.stop(); // Para o reconhecimento se já estiver ocorrendo
+        return;
+      }
+      // Se não estiver ocorrendo, limpa o texto e inicia o reconhecimento
+      finalTranscript = '';
+      transcription.textContent = '';
+      recognition.start();
+    }, false);
+
+  } else {
+    // Se a API não é suportada, esconde o botão e exibe uma mensagem
+    startButton.style.visibility = 'hidden';
+    transcription.textContent = 'Seu navegador não suporta a API de reconhecimento de fala.';
+  }
+  </script>
+</body>
+</html>
